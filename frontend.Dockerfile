@@ -1,6 +1,6 @@
 FROM node:21.1.0-alpine
 
-COPY client ./
+COPY fe ./
 
 RUN npm install --silent
 
